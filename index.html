@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+	  <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+  <h1 id="title">AMA University Online Education</h1>  
+  <h4>Survey Form</h4>
+  <p id="description">Thank you for taking the time to participate in this survey.</p>
+</div>
+  <!--SURVEY FORM-->
+  <form id="survey-form">
+    <div class="particulars">
+<label for="name" id="name-label">Name</label>
+<input type="text" id="name" placeholder="Jean Dee" required>
+<label for="email" id="email-label">Email</label>
+<input type="email" id="email" placeholder="jeandee@gmail.com" required>
+<label for="age" id="number-label">Age
+<input type="number" id="number" placeholder=" 43" min="10" max="100">
+</label>
+</div>
+
+<!--Radio inputs-->
+<div class="radio">
+<label for="gender"> Gender 
+  <br>
+  <input type ="radio" id="gender" name="gender" value="Male">Male
+  <input type="radio" name="gender" value="Female">Female
+</label>
+<div>
+<!--End of Radio inputs-->
+<hr>
+<!--Checkbox inputs -->
+<div class="info">
+<label for="find-how"> How did you find about AMA University Online Education? <span>(Select all that apply)</span>
+<br>
+<input type="checkbox"  value="web">Web
+<input type="checkbox" value="ads">Ads
+<input type="checkbox" value="flyer">Flyer
+<input type="checkbox" value="friend">Friend
+</label>
+<hr>
+</div>
+<!--End of Checkbox inputs-->
+
+<!--Dropdown--> 
+<div class="location">
+<label for="dropdown"> Your Location 
+<select id="dropdown">
+  <option value="1" disabled>Select location</option>
+<option value="2">Asia</option>
+<option value="3">Europe</option>
+<option value="4">North America</option>
+<option value="5">South America</option>
+<option value="6">Africa</option>
+<option value="7">Australia</option>
+<option value="8">Antarctica</option>
+</select>
+</label>
+</div>
+<div class=" suggestion">
+  <label for="suggestion"> Do you have any feedback or suggestions to improve the portal?
+    <br>
+    <textarea rows="10" cols="20"> Write your feedback or suggestion here... </textarea>
+  </label>
+</div>
+<div class="submit-btn">
+<button id="submit">Submit </button>
+</div>
+  </form>
+  </main>
+  </body>
+  </html>

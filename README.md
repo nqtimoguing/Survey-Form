@@ -1,1 +1,1 @@
-# Survey-Form
+This survey form is the completion of one of the certification projects in freecodecamp under the Responsive Web Design curriculum.
